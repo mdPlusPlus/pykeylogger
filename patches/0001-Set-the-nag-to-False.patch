@@ -1,0 +1,26 @@
+From ec20a22a8184098ea38ff35ea7a26e7239c94ed8 Mon Sep 17 00:00:00 2001
+From: Marcin Lawniczak <marcin.safmb@wp.pl>
+Date: Wed, 1 Aug 2012 20:41:19 +0200
+Subject: [PATCH 01/14] Set the nag to False.
+
+First change in my fork.
+---
+ keylogger.pyw | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/keylogger.pyw b/keylogger.pyw
+index ce06e22..983e7b4 100644
+--- a/keylogger.pyw
++++ b/keylogger.pyw
+@@ -339,7 +339,7 @@ class KeyLogger:
+         # support the PyKeylogger project by making a donation.
+         
+         # Set this to False to get rid of all nagging.
+-        NagMe = True
++        NagMe = False
+         
+         if NagMe == True:
+             # first, show the support screen
+-- 
+2.19.1
+
